@@ -1,4 +1,5 @@
 $LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'lib')
  
- require 'pry'
- require 'rspec_greeter'
+require 'pry'
+require 'rspec_greeter'
+require 'car'
