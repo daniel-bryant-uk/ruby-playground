@@ -13,4 +13,11 @@ describe 'Car' do
     end
   end
 
+  describe 'two cars with the same properties are equal' do
+    it 'should be equal' do
+      my_second_car = Car.new('my car', '2L')
+      expect(my_second_car == subject).to be true
+    end
+  end
+
 end
